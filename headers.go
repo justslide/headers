@@ -71,6 +71,7 @@ const (
 	WWWAuthenticate               = "WWW-Authenticate"
 
 	// Non-Standard
+
 	XFrameOptions          = "X-Frame-Options"
 	XXSSProtection         = "X-XSS-Protection"
 	ContentSecurityPolicy  = "Content-Security-Policy"
@@ -87,6 +88,11 @@ const (
 	XRatelimitLimit        = "X-Ratelimit-Limit"
 	XRatelimitRemaining    = "X-Ratelimit-Remaining"
 	XRatelimitReset        = "X-Ratelimit-Reset"
+
+	// JSM
+
+	XCorrelationId = "X-Correlation-ID"
+	XRequestId     = "X-Request-ID"
 )
 
 // Normalize formats the input header to the formation of "Xxx-Xxx".
