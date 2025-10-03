@@ -12,4 +12,5 @@ func TestNormalize(t *testing.T) {
 	assert.Equal("Content-Type", Normalize("content-type"))
 	assert.Equal("Content-Type", Normalize("CONTENT-TYPE"))
 	assert.Equal("Content-Type", Normalize("cONtENT-tYpE"))
+	assert.Equal("X-Correlation-Id", Normalize("X-Correlation-ID"))
 }

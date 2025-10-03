@@ -91,8 +91,8 @@ const (
 
 	// JSM
 
-	XCorrelationId = "X-Correlation-ID"
-	XRequestId     = "X-Request-ID"
+	XCorrelationId = "X-Correlation-Id"
+	XRequestId     = "X-Request-Id"
 )
 
 // Normalize formats the input header to the formation of "Xxx-Xxx".
