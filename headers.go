@@ -93,6 +93,7 @@ const (
 
 	XCorrelationId = "X-Correlation-Id"
 	XRequestId     = "X-Request-Id"
+	XApiKey        = "X-Api-Key"
 )
 
 // Normalize formats the input header to the formation of "Xxx-Xxx".
